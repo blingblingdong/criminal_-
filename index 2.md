@@ -1,11 +1,11 @@
 --- 
-title: "刑與刑之書"
-author: "董宸賓"
-date: "`r Sys.Date()`"
+title: "A Minimal Book Example"
+author: "John Doe"
+date: "2023-10-27"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://criminal.lsyverycute.com
+# url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   This is a minimal example of using the bookdown package to write a book.
@@ -13,8 +13,6 @@ description: |
   set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
-apple-touch-icon: "www/dd.png"
-apple-touch-icon-size: 120
 ---
 
 # About
@@ -39,7 +37,8 @@ You can render the HTML version of this example book without changing anything:
 
 Or build the book from the R console:
 
-```{r, eval=FALSE}
+
+```r
 bookdown::render_book()
 ```
 
@@ -49,14 +48,10 @@ To render this example to PDF as a `bookdown::pdf_book`, you'll need to install 
 
 As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
 
-```{r eval=FALSE}
+
+```r
 bookdown::serve_book()
 ```
 
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
