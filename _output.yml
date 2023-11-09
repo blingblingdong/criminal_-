@@ -3,4 +3,6 @@ bookdown::bs4_book:
   theme:
     primary: "#0F2E3D"
   repo: https://github.com/blingblingdong/criminal_-
+bookdown::epub_book: default
+  
 
