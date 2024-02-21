@@ -1,5 +1,65 @@
 # 形式與實質？
 
+<table border="1">
+    <td colspan="4" align="center"><strong>About：112601033</strong></td>
+  <tr>
+    <td rowspan="4" align="center"><strong>個人照片</strong><br/><img src="path/to/personal_photo.jpg" alt="個人照片" style="width:100px; height:150px;"></td>
+  </tr>
+  <tr>
+    <td colspan="2">Name: <input type="text"><br>
+    Gender: 
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female
+      <input type="radio" name="gender" value="Other"> Other
+    </td>
+  </tr>
+  <tr>
+    <td>County:
+      <select>
+        <option value="Taipei">Taipei</option>
+        <option value="Tainan">Tainan</option>
+        <option value="Taichung">Taichung</option>
+        <option value="Taoyuan">Taoyuan</option>
+      </select>
+    </td>
+    <td>Birthday: <input type="date"></td>
+  </tr>
+  <tr>
+    <td colspan="2">Email: <input type="email"></td>
+  </tr>
+  <tr>
+    <td>Say something</td>
+    <td colspan="2"><textarea placeholder="在這裡輸入一些文字"></textarea></td>
+  </tr>
+  <tr>
+    <td>Hobby</td>
+    <td colspan="2">
+      <input type="checkbox" id="swimming"><label for="swimming">Swimming</label>
+      <input type="checkbox" id="volleyball"><label for="volleyball">Volleyball</label>
+      <input type="checkbox" id="movie"><label for="movie">Movie</label>
+      <input type="checkbox" id="game"><label for="game">Game</label>
+      <input type="checkbox" id="sleep"><label for="sleep">Sleep</label>
+    </td>
+  </tr>
+  <tr>
+    <td>Skill</td>
+    <td colspan="2">
+      <input type="checkbox" id="java"><label for="java">Java</label>
+      <input type="checkbox" id="html"><label for="html">HTML</label>
+      <input type="checkbox" id="python"><label for="python">Python</label>
+      <input type="checkbox" id="office"><label for="office">Microsoft Office</label>
+      <input type="checkbox" id="premiere"><label for="premiere">Premiere</label>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+       <button>提交</button>
+       <button>重設</button>
+    </td>
+  </tr>
+</table>
+
+
 
 ## 本次架構
 
